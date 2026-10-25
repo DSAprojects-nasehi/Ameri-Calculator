@@ -1,0 +1,31 @@
+# پوشه‌های Build
+build/
+build-*/
+*-build-*/
+debug/
+release/
+
+# فایل‌های شخصی Qt Creator
+*.pro.user
+*.pro.user.*
+CMakeLists.txt.user*
+
+# فایل‌های تولیدشده توسط Qt (moc, uic, rcc)
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+*.moc
+
+# آبجکت‌ها و کتابخانه‌های کامپایل‌شده
+*.o
+*.obj
+*.so
+*.dll
+*.a
+*.lib
+*.exe
+*.out
+
+# سایر فایل‌های موقت
+*.autosave
+Makefile*
